@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(img/background-body.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+img {
+  width: 20rem;
+  position: relative;
+  left: 10px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+  justify-content: center;
+  height: 20vh;
+  align-items: end;
+}
+a {
+  background-color: #8e9d7b;
+  width: 6em;
+  height: 3em;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Tajawal";
+  text-decoration: none;
+  cursor: pointer;
+}
+a.en {
+  left: 8px;
+  letter-spacing: 3px;
+}
+
+@media (min-width: 600px) {
+  img {
+    width: 25rem;
+  }
+  a {
+    width: 6em;
+    height: 3em;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  img {
+    width: 30rem;
+  }
+  a {
+    width: 6em;
+    height: 3em;
+    font-size: 20px;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 300px) and (max-width: 1000px) and (max-height: 600px) {
+  img {
+    width: 17rem;
+  }
+  a {
+    width: 4em;
+    height: 2em;
+    font-size: 18px;
+  }
+}
