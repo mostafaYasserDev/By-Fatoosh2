@@ -36,7 +36,7 @@ a {
   height: 3em;
   border-radius: 6px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   font-weight: 400;
   color: #fff;
